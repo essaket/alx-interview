@@ -4,12 +4,12 @@
 
 def canUnlockAll(boxes):
     '''Checks if all the boxes in a list of boxes containing the keys
-    (indices) to other boxes can be unlocked given that the first box 
+    (indices) to other boxes can be unlocked given that the first box
     is unlocked.
     '''
     n = len(boxes)  # Total number of boxes
-    seen_boxes = set([0])  # Set to keep track of unlocked boxes, starting with box 0
-    unseen_boxes = set(boxes[0]).difference(set([0]))  # Keys from the first box
+    seen_boxes = set([0])  # Set keep track of unlocked boxes starting with 0
+    unseen_boxes = set(boxes[0]).difference(set([0]))  # Keys from first box
 
     while len(unseen_boxes) > 0:
         boxIdx = unseen_boxes.pop()  # Get a key from unseen_boxes
