@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """0. Minimum Operations"""
 
 
@@ -20,4 +20,4 @@ def minOperations(n: int) -> int:
         # Move to the next potential factor
         division += 1
 
-    return min_oper # Return the total count of operations
+    return min_oper  # Return the total count of operations
