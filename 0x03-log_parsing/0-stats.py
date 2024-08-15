@@ -1,10 +1,13 @@
 #!/usr/bin/python3
+"""0. Log parsing"""
 import sys
 
 # Initialize counters and storage
 total_file_size = 0
 line_counter = 0
-status_code_counts = {str(code): 0 for code in [200, 301, 400, 401, 403, 404, 405, 500]}
+status_code_counts = {
+        str(code): 0 for code in [200, 301, 400, 401, 403, 404, 405, 500]}
+
 
 def print_stats():
     """Print the total file size and the count of each status code."""
@@ -12,6 +15,7 @@ def print_stats():
     for code, count in sorted(status_code_counts.items()):
         if count > 0:
             print(f"{code}: {count}")
+
 
 try:
     for line in sys.stdin:
