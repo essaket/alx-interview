@@ -21,6 +21,7 @@ if N < 4:
     print("N must be at least 4")
     exit(1)
 
+
 def queens(n, i=0, a=[], b=[], c=[]):
     """Recursively find all solutions for placing queens"""
     if i < n:
@@ -33,11 +34,13 @@ def queens(n, i=0, a=[], b=[], c=[]):
         # Yield a valid solution
         yield a
 
+
 def solve(n):
     """Print all solutions to the N Queens problem"""
     for solution in queens(n):
         # Format each solution as a list of [row, column] pairs
         print([[i, solution[i]] for i in range(n)])
+
 
 # Solve the N Queens problem for the given N
 solve(N)
