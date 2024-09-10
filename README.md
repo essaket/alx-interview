@@ -9,6 +9,7 @@ This repo contains interview projects endorsed by ALX as part of the specializat
 - [UTF-8 Validation](https://github.com/essaket/alx-interview/tree/main/0x04-utf8_validation)
 - [N Queens](https://github.com/essaket/alx-interview/tree/main/0x05-nqueens)
 - [Star Wars API](https://github.com/essaket/alx-interview/tree/main/0x06-starwars_api)
+- [Rotate 2D Matrix](https://github.com/essaket/alx-interview/tree/main/0x07-rotate_2d_matrix)
 
 ---
 
