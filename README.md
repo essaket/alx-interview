@@ -11,6 +11,7 @@ This repo contains interview projects endorsed by ALX as part of the specializat
 - [Star Wars API](https://github.com/essaket/alx-interview/tree/main/0x06-starwars_api)
 - [Rotate 2D Matrix](https://github.com/essaket/alx-interview/tree/main/0x07-rotate_2d_matrix)
 - [Making change](https://github.com/essaket/alx-interview/tree/main/0x08-making_change)
+- [Island Perimeter](https://github.com/essaket/alx-interview/tree/main/0x09-island_perimeter)
 
 ---
 
